@@ -5,11 +5,13 @@
  */
 package ine5404.comandas;
 
+import java.io.Serializable;
+
 /**
  *
  * @author martin
  */
-public class Pedido {
+public class Pedido implements Serializable{
     protected String descricao;
     protected double valor;
 
